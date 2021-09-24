@@ -1,0 +1,60 @@
+
+body{
+    background-color: #2A3439;
+    margin-top: 0px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-row{
+    flex-direction: row;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+}
+.header{
+    display: flex;
+    position: absolute;
+    font: Georgia;
+    font-size: 30px;
+    justify-content: center;
+    justify-self: center;
+    background-color: #3BCEAC;
+    height:50px;
+    border-radius: 25px;
+    width: 400px;
+}
+
+.row-bt{
+    display: flex;
+    position: fixed;
+    background-color: #EF5778;
+    color:#FFD23F ;
+    width: 100%;
+}
+
+.row-bt-image{
+    justify-self: flex-start;
+}
+
+.row-bt-text{
+    justify-self: flex-end;
+}
+
+.row-tb{
+    display: flex;
+    position: fixed;
+    background-color: #CC6CEF;
+    color:#FFD23F ;
+}
+.row-tb-image{
+    justify-self: flex-end;
+}
+
+.row-tb-text{
+    justify-self: flex-start;
+}
