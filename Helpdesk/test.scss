@@ -132,3 +132,7 @@ $breakpoint-large: 1200px;
     flex-direction: column;
     align-items: center;
 }
+
+p{
+    min-width:500px !important;
+}
